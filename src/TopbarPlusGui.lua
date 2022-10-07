@@ -18,7 +18,7 @@ topbarContainer.Size = UDim2.new(1, 0, 0, 36)
 topbarContainer.Visible = true
 topbarContainer.ZIndex = 1
 topbarContainer.Parent = topbarPlusGui
-topbarContainer.Active = false
+topbarContainer.Active = true
 
 local iconContainer = Instance.new("Frame")
 iconContainer.BackgroundTransparency = 1
@@ -27,7 +27,7 @@ iconContainer.Position = UDim2.new(0, 104, 0, 4)
 iconContainer.Visible = false
 iconContainer.ZIndex = 1
 iconContainer.Parent = topbarContainer
-iconContainer.Active = false
+iconContainer.Active = true
 
 local iconButton = Instance.new("TextButton")
 iconButton.Name = "IconButton"
@@ -57,7 +57,6 @@ iconLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
 iconLabel.Text = ""
 iconLabel.RichText = true
 iconLabel.TextScaled = false
-iconLabel.ClipsDescendants = true
 iconLabel.ZIndex = 11--3
 iconLabel.Parent = iconButton
 iconLabel.Active = false
