@@ -681,7 +681,7 @@ end
 -- BEHAVIOUR
 --Controller support
 coroutine.wrap(function()
-	
+	if true then return end
 	-- Create PC 'Enter Controller Mode' Icon
 	runService.Heartbeat:Wait() -- This is required to prevent an infinite recursion
 	local Icon = require(script.Parent).default
