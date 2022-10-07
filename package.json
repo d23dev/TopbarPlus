@@ -2,7 +2,7 @@
   "name": "@rbxts/topbar-plus",
   "version": "2.7.5",
   "description": "roblox-ts port of Topbar+",
-  "main": "out/init.lua",
+  "main": "src/init.lua",
   "scripts": {
     "build": "rbxtsc --verbose"
   },
@@ -20,7 +20,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "types": "out/index.d.ts",
+  "types": "src/index.d.ts",
   "devDependencies": {
     "@rbxts/compiler-types": "^1.2.7-types.1",
     "@rbxts/types": "^1.0.553",
